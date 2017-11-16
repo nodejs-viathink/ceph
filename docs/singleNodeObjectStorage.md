@@ -221,6 +221,6 @@
 
 ## 参考链接
 
-[官方中文文档](http://docs.ceph.org.cn/)
-[运维手册-gitbook](https://www.gitbook.com/book/lihaijing/ceph-handbook/details)
-[单节点安装](https://my.oschina.net/u/2604795/blog/754646)
+* [官方中文文档](http://docs.ceph.org.cn/)
+* [运维手册-gitbook](https://www.gitbook.com/book/lihaijing/ceph-handbook/details)
+* [单节点安装](https://my.oschina.net/u/2604795/blog/754646)
