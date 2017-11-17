@@ -62,9 +62,9 @@ getGridFsFile((err, fileObj) => {
 		console.log('putObjectToS3 success obj: ', obj);
 		// 将匹配规则写入json
 		const listJsonArr = [{
-			_id: fileObj.fileId,
+			filename: fileObj.filename,
 			bucket: obj.bucket,
-			filename: fileObj.filename
+			_id: fileObj.fileId
 		}];
 		fs.writeFileSync('list.json', JSON.stringify(listJsonArr));
 		console.log('all success...');
