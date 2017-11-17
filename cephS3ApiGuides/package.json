@@ -6,11 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ceph", "s3", "nodejs"],
+  "keywords": [
+    "ceph",
+    "s3",
+    "nodejs"
+  ],
   "author": "lijianxun",
   "license": "ISC",
   "dependencies": {
+    "gridfs-stream": "^1.1.1",
     "mime": "^2.0.3",
-    "minio": "^3.2.2"
+    "minio": "^3.2.2",
+    "mongodb": "^2.2.33"
   }
 }
