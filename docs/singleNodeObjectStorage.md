@@ -62,10 +62,11 @@
     // dpkg -i --force-overwrite /var/cache/apt/archives/ceph-base_10.2.10-1trusty_amd64.deb
 ```
 
-7.创建ceph工作目录
+7.创建ceph工作目录(所有`ceph-deploy`命令都在本步骤创建的这个目录下执行)
 
 ```
     mkdir /opt/ceph-cluster
+    cd /opt/ceph-cluster
 ```
 
 8.设置集群的monitor节点
