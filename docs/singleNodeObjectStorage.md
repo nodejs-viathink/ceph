@@ -4,6 +4,8 @@
 
 * Ubuntu 14.04 LTS server版
 
+备注: 请使用[网易的源](http://mirrors.163.com/.help/ubuntu.html)
+
 ## 步骤(请使用root账号)
 
 1.关闭防火墙（测试环境，正式环境打开相应端口权限）,
